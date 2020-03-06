@@ -1,0 +1,17 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: flterm
+Source: https://github.com/timvideos/flterm
+
+Files: *
+Copyright: <Tim 'mithro' Ansells contact@timvideos.us>
+License: GPL-3
+ See below.
+
+Files: debian/*
+Copyright: 2020 mithro <contact@timvideos.us>
+License: GPL-3
+ GNU GENERAL PUBLIC 
+ Version 3, 29 June 2007
+ Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
