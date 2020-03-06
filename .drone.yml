@@ -4,7 +4,6 @@ pipeline:
       branch: master
       event: [ push, pull_request, tag ]
     image: gcr.io/admobilize-testing/creator-builder-${ARCHITECTURE}-${DISTRIBUTION}-${CODENAME}:${IMAGE_TAG}
-    privileged: true
     commands:
       - echo "build-debs for ${ARCHITECTURE}-${DISTRIBUTION}-${CODENAME}:${IMAGE_TAG}"
       - ${UPDATE_CMD}
